@@ -1,11 +1,17 @@
 This SDK allows you to add Akismet capabilities to your ColdFusion (CFML) applications. You will need an Akismet API key in order to use this model. For more information visit: http://www.akismet.com
 
 ## Installation 
-This SDK can be installed as standalone or as a ColdBox Module.
+This SDK can be installed as standalone or as a ColdBox Module.  Either approach requires a simple CommandBox command:
+
+```
+box install cfakismet
+```
+
+Then follow either the standalone or module instructions below.
 
 ### Standalone
 
-This SDK can be instantiated by using the `Akismet.cfc` with the following constructor arguments:
+This SDK will be installed into a directory called `cfakismet` and then the SDK can be instantiated via ` new cfakismet.Akismet()` with the following constructor arguments:
 
 ```
 /**
