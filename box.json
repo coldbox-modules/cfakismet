@@ -2,7 +2,7 @@
     "name":"Akismet SDK",
     "version":"2.0.0",
     "slug":"cfakismet",
-    "location" : "https://github.com/coldbox-modules/cfakismet/archive/master.zip",
+    "location":"https://github.com/coldbox-modules/cfakismet/archive/master.zip",
     "author":"Ortus Solutions",
     "homepage":"https://github.com/coldbox-modules/cfakismet",
     "documentation":"https://github.com/coldbox-modules/cfakismet",
@@ -26,10 +26,10 @@
         
     },
     "devDependencies":{
-        
+        "testbox":"^2.3.0+00044"
     },
     "installPaths":{
-        
+        "testbox":"testbox"
     },
     "ignore":[
         "**/.*",
