@@ -1,13 +1,11 @@
 /**
-********************************************************************************
-Copyright 2009 ColdBox Framework by Luis Majano and Ortus Solutions, Corp
-www.coldboxframework.com | www.luismajano.com | www.ortussolutions.com
-********************************************************************************
-@author Luis Majano
-Askismet interface www.akismet.com
-Developer API http://akismet.com/development/api/
-Based on CFAkismet by Brandon Harper
-
+* Copyright Ortus Solutions, Corp
+* www.ortussolutions.com
+* ---
+* This module connects your application to Akismet
+* Askismet interface www.akismet.com
+* Developer API http://akismet.com/development/api/
+* Based on CFAkismet by Brandon Harper
 **/
 component accessors="true" singleton{
 	
@@ -52,7 +50,7 @@ component accessors="true" singleton{
 		numeric HTTPTimeout=10 ){
 
 		// Properties
-		version 		= "1.0";
+		version 		= "2.0.0";
 		akismetVersion 	= "1.1";
 		akismetHost 	= "rest.akismet.com";
 
