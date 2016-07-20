@@ -12,7 +12,7 @@
     },
     "bugs":"https://github.com/coldbox-modules/cfakismet/issues",
     "shortDescription":"This SDK allows you to add Akismet capabilities to your ColdFusion (CFML) applications",
-    "type":"projects",
+    "type":"modules",
     "license":[
         {
             "type":"Apache2",
