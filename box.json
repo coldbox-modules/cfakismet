@@ -1,0 +1,43 @@
+{
+    "name":"Akismet SDK",
+    "version":"2.0.0",
+    "slug":"CKCodeMirror",
+    "location" : "https://github.com/contentbox-modules/CKCodeMirror/archive/master.zip",
+    "author":"Ortus Solutions",
+    "homepage":"https://github.com/contentbox-modules/CKCodeMirror",
+    "documentation":"https://github.com/contentbox-modules/CKCodeMirror",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/contentbox-modules/CKCodeMirror"
+    },
+    "bugs":"https://github.com/contentbox-modules/CKCodeMirror/issues",
+    "shortDescription":"This module adds Code Mirror support to CKEditor included with ContentBox.  Once you go into source mode you will get a full coding experience.",
+    "description":"",
+    "instructions":"",
+    "changelog":"",
+    "type":"contentbox-modules",
+    "projectURL":"",
+    "license":[
+        {
+            "type":"Apache2",
+            "URL":"http://www.apache.org/licenses/LICENSE-2.0"
+        }
+    ],
+    "contributors":[
+        
+    ],
+    "dependencies":{
+        
+    },
+    "devDependencies":{
+        
+    },
+    "installPaths":{
+        
+    },
+    "ignore":[
+        "**/.*",
+        "tests",
+        "builds/**"
+    ]
+}
